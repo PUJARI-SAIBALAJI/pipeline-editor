@@ -45,13 +45,12 @@ Below are live screenshots of the DAG Editor interface:
 
 Here is a complete walkthrough of the DAG Editor project in action:
 
-## 📹 Demo Video
-
 <p align="center">
-  <iframe src="https://drive.google.com/file/d/1MNcKcnVhhF22zehhphNC77n-9amr277P/preview" 
-          width="640" height="360" allow="autoplay; encrypted-media" allowfullscreen>
-  </iframe>
+  <a href="https://drive.google.com/file/d/1MNcKcnVhhF22zehhphNC77n-9amr277P/view?usp=sharing" target="_blank">
+    <img src="https://img.shields.io/badge/▶️%20Watch%20Demo%20Video-%23FF0000.svg?style=for-the-badge&logo=google-drive&logoColor=white" alt="Watch Demo Video"/>
+  </a>
 </p>
+
 
 
 ---
