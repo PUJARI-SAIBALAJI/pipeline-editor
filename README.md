@@ -4,46 +4,59 @@
 [![React](https://img.shields.io/badge/react-%2320232a.svg?logo=react)](https://reactjs.org/)
 [![React Flow](https://img.shields.io/badge/react%20flow-%2361DAFB.svg?logo=react)](https://reactflow.dev/)
 
-A powerful **Directed Acyclic Graph (DAG)** editor built with **React** and **React Flow** to design, visualize, and manage workflow pipelines interactively.
+A powerful **Directed Acyclic Graph (DAG)** editor built with **React** and **React Flow** to create, visualize, and manage workflow pipelines interactively and intuitively.
 
 ---
 
 ## 📋 Problem Statement
 
-Design and develop an interactive DAG (Directed Acyclic Graph) Editor that enables users to:
-- Create, edit, and connect custom nodes.
-- Visualize workflows in real-time.
-- Handle DAG-specific constraints like cycle detection and validation.
+The goal of this project was to develop a fully functional DAG (Directed Acyclic Graph) editor that allows users to:
+- Visually design workflows and pipeline structures.
+- Create and connect custom nodes with drag-and-drop functionality.
+- Ensure DAG-specific constraints such as **no cyclic dependencies** and **unique node validations**.
+- Provide real-time feedback on edge connections and graph structure.
 
-📄 **View the problem statement PDF**:  
-🔗 [Click to Open](https://drive.google.com/file/d/10mTmic435GnrSVxH-69gYt9JGHTvcR4w/view?usp=sharing)
+📄 **Problem Statement PDF**:  
+🔗 [Click to View](https://drive.google.com/file/d/10mTmic435GnrSVxH-69gYt9JGHTvcR4w/view?usp=sharing)
+
+---
+
+## 📘 Project Documentation
+
+<p align="center">
+  <a href="https://drive.google.com/file/d/1npyo78XKQna3wDHdy45Xt-DSG7OxgkMm/view?usp=sharing" target="_blank">
+    <img src="https://img.shields.io/badge/📄%20View%20Full%20Documentation-%230078D7.svg?style=for-the-badge&logo=google-drive&logoColor=white" alt="Project Documentation" />
+  </a>
+</p>
+
+This document includes:
+- Overview & Architecture
+- Implementation Flow
+- Screenshots
+- Challenges & Resolutions
+- Future Enhancements
 
 ---
 
 ## 📸 Screenshots
 
-Below are live screenshots of the DAG Editor interface:
+### 🏠 Home Page
 
 <p align="center">
-  <img src="https://drive.google.com/uc?id=1vp5Xh6_hlXapTAa77yvbB0LY7Z29kWJq" alt="Screenshot 1" width="45%" />
-
-  <img src="https://drive.google.com/uc?id=1WwRWnzqV1mg0N6LNAprMqrIXS1jm_3Wy" alt="Screenshot 2" width="45%" />
+  <img src="https://drive.google.com/uc?id=1vp5Xh6_hlXapTAa77yvbB0LY7Z29kWJq" alt="Home Screenshot 1" width="45%" />
+  <img src="https://drive.google.com/uc?id=1WwRWnzqV1mg0N6LNAprMqrIXS1jm_3Wy" alt="Home Screenshot 2" width="45%" />
 </p>
 
-
+### 📊 DAG Editor Page
 
 <p align="center">
-  <img src="https://drive.google.com/uc?id=1pB_y3INyDIzjeCQ7_EqXYW2BX1F8m0Jt" alt="Screenshot 3" width="45%" />
-  <img src="https://drive.google.com/uc?id=10mTmic435GnrSVxH-69gYt9JGHTvcR4w" alt="Screenshot 4" width="45%" />
+  <img src="https://drive.google.com/uc?id=1pB_y3INyDIzjeCQ7_EqXYW2BX1F8m0Jt" alt="DAG Editor Screenshot 1" width="45%" />
+  <img src="https://drive.google.com/uc?id=10mTmic435GnrSVxH-69gYt9JGHTvcR4w" alt="DAG Editor Screenshot 2" width="45%" />
 </p>
-
-
 
 ---
 
 ## 📹 Demo Video
-
-Here is a complete walkthrough of the DAG Editor project in action:
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1MNcKcnVhhF22zehhphNC77n-9amr277P/view?usp=sharing" target="_blank">
@@ -51,13 +64,17 @@ Here is a complete walkthrough of the DAG Editor project in action:
   </a>
 </p>
 
-
+This video provides a complete walkthrough of:
+- Node creation and deletion
+- Connecting nodes with validation
+- Undo/redo and auto-layout in action
+- Exporting JSON structure
 
 ---
 
 ## 🌐 Live Deployment
 
-Access the live application here:
+You can try the live version here:
 
 <p align="center">
   <a href="https://pipeline-editor-pujari-saibalajis-projects.vercel.app/" target="_blank">
@@ -70,19 +87,20 @@ Access the live application here:
 ## 🚀 Features
 
 ### 🔧 Node Management
-- Add nodes via prompt input
-- Enforce unique node names to avoid conflicts
-- Support for various node types: input, process, output
+- Create nodes using a prompt modal.
+- Enforce unique names to avoid graph confusion.
+- Nodes can be of types: input, process, output.
 
-### 🔁 Edge & Graph Control
-- Connect nodes with validation
-- Prevent circular dependencies
-- Undo/Redo and delete nodes and edges
+### 🔁 Edge Handling & Graph Control
+- Connect nodes via drag-and-drop.
+- Edges are validated for DAG structure (no cycles).
+- Undo/Redo support using keyboard shortcuts.
+- Delete nodes/edges via key press.
 
-### 🧭 Layout & Visualization
-- Zoom, pan, and auto-layout support
-- View graph structure as JSON
-- Dynamic updates on changes
+### 🧭 Visualization Tools
+- Auto-layout using Dagre.js for clarity.
+- Zoom in/out and panning support.
+- Real-time JSON export of node/edge structure.
 
 ---
 
@@ -90,45 +108,47 @@ Access the live application here:
 
 | Category        | Technologies                          |
 |-----------------|---------------------------------------|
-| **Frontend**    | React, React Flow, Dagre.js           |
-| **State**       | Context API, Custom Reducers          |
+| **Frontend**    | React, React Flow                     |
+| **Layout**      | Dagre.js                              |
+| **State**       | React Context API, Reducers           |
 | **Styling**     | CSS Modules, Responsive Design        |
-| **UI/UX**       | DALL·E (Visual Assets), React Icons   |
+| **Icons**       | React Icons                           |
+| **Design**      | DALL·E for graphics                   |
 | **Deployment**  | Vercel                                |
 
 ---
 
 ## 🧩 Architectural Decisions
 
-- **React Flow** is used for rendering and managing graph visuals.
-- **Custom context + reducers** for handling graph state (nodes, edges, validations).
-- **Unique node enforcement** to prevent semantic confusion.
-- Modular component design ensures maintainability and scalability.
-- **Dagre layout** improves graph clarity via automatic node positioning.
+- **React Flow** was chosen for high flexibility and visual edge/node management.
+- **Custom Reducers + Context** for precise and scalable state control.
+- Implemented **unique node validation** to eliminate naming conflict errors.
+- Integrated **dagre.js** for improving graph layout aesthetics.
 
 ---
 
 ## 🐞 Challenges Faced
 
-1. **Cycle Detection**  
-   Ensuring the graph remains acyclic was a major logic hurdle. Circular dependencies had to be prevented both during manual and programmatic edge connections.
+### 1. 🔄 Cycle Detection
+One of the biggest challenges was ensuring the graph remained acyclic. This involved implementing logic to trace paths and block invalid edge creation that could form loops.
 
-2. **Unique Node Names**  
-   Initially, nodes with identical names were allowed, creating ambiguity in edge logic. Solved by validating unique IDs and labels before node creation.
+### 2. 🆔 Unique Node Names
+Initially, repeated node names created edge mismatches. Introduced a validation mechanism to enforce uniqueness and maintain graph clarity.
 
-3. **Graph Lifecycle Issues**  
-   During updates and deletions, syncing node positions and maintaining graph integrity required careful use of React Flow hooks and reducer-based updates.
+### 3. 🔁 Undo/Redo with React Flow
+Maintaining undo/redo functionality required synchronizing React Flow states with internal state reducers. Custom logic was written for time travel support.
 
-4. **Visual Design & UX**  
-   Achieving a clean UI took iterations. Styling needed to adapt well for various screen sizes and devices. DALL·E and design inspiration helped polish the visuals.
+### 4. 🎨 Responsive UI & Layout
+Creating a layout that scales on all devices required extra tweaks in CSS and positioning via Flexbox and media queries.
 
 ---
 
 ## 📦 Installation & Setup
 
-To run the project locally:
+To run this project locally:
 
-### 1. Clone the repository
+### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/dag-editor.git
-cd dag-editor
+git clone https://github.com/PUJARI-SAIBALAJI/pipeline-editor.git
+cd pipeline-editor
+2.
