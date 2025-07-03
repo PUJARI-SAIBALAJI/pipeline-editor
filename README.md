@@ -22,35 +22,34 @@ Design and develop an interactive DAG (Directed Acyclic Graph) Editor that enabl
 
 ## 📸 Screenshots
 
-Here are snapshots of the live application in action:
+Below are live screenshots of the DAG Editor interface:
 
-![Screenshot 1](https://drive.google.com/uc?id=1pB_y3INyDIzjeCQ7_EqXYW2BX1F8m0Jt)
-![Screenshot 2](https://drive.google.com/uc?id=1WwRWnzqV1mg0N6LNAprMqrIXS1jm_3Wy)
+<p align="center">
+  <img src="https://drive.google.com/uc?id=1pB_y3INyDIzjeCQ7_EqXYW2BX1F8m0Jt" alt="Screenshot 1" width="45%" />
+  <img src="https://drive.google.com/uc?id=1WwRWnzqV1mg0N6LNAprMqrIXS1jm_3Wy" alt="Screenshot 2" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://drive.google.com/uc?id=1pB_y3INyDIzjeCQ7_EqXYW2BX1F8m0Jt" alt="Screenshot 3" width="45%" />
+  <img src="https://drive.google.com/uc?id=1WwRWnzqV1mg0N6LNAprMqrIXS1jm_3Wy" alt="Screenshot 4" width="45%" />
+</p>
 
 ---
 
 ## 📹 Demo Video
 
-🎥 **Watch the project screen recording**:  
-[![Watch Demo](https://img.shields.io/badge/Watch%20Demo-%23FF0000.svg?style=for-the-badge&logo=Google-Drive&logoColor=white)](https://drive.google.com/file/d/1MNcKcnVhhF22zehhphNC77n-9amr277P/view?usp=sharing)
+Here is a complete walkthrough of the DAG Editor project in action:
+
+<div align="center">
+  <iframe src="https://drive.google.com/file/d/1MNcKcnVhhF22zehhphNC77n-9amr277P/preview" 
+          width="640" height="360" allow="autoplay" allowfullscreen></iframe>
+</div>
 
 ---
 
 ## 🌐 Live Deployment (Coming Soon)
 
 Once deployed, the Vercel live link will be updated here.
-
----
-
-## 🛠 Tech Stack
-
-| Category        | Technologies                          |
-|-----------------|---------------------------------------|
-| **Frontend**    | React, React Flow, Dagre.js           |
-| **State**       | Context API, Custom Reducers          |
-| **Styling**     | CSS Modules, Responsive Design        |
-| **UI/UX**       | DALL·E (Visual Assets), React Icons   |
-| **Deployment**  | Vercel                                |
 
 ---
 
@@ -64,12 +63,24 @@ Once deployed, the Vercel live link will be updated here.
 ### 🔁 Edge & Graph Control
 - Connect nodes with validation
 - Prevent circular dependencies
-- Intuitive undo/redo and delete functionality
+- Undo/Redo and delete nodes and edges
 
 ### 🧭 Layout & Visualization
 - Zoom, pan, and auto-layout support
 - View graph structure as JSON
 - Dynamic updates on changes
+
+---
+
+## 🛠 Tech Stack
+
+| Category        | Technologies                          |
+|-----------------|---------------------------------------|
+| **Frontend**    | React, React Flow, Dagre.js           |
+| **State**       | Context API, Custom Reducers          |
+| **Styling**     | CSS Modules, Responsive Design        |
+| **UI/UX**       | DALL·E (Visual Assets), React Icons   |
+| **Deployment**  | Vercel                                |
 
 ---
 
