@@ -30,9 +30,15 @@ Below are live screenshots of the DAG Editor interface:
 </p>
 
 <p align="center">
-  <img src="https://drive.google.com/uc?id=1pB_y3INyDIzjeCQ7_EqXYW2BX1F8m0Jt" alt="Screenshot 3" width="45%" />
-  <img src="https://drive.google.com/uc?id=1WwRWnzqV1mg0N6LNAprMqrIXS1jm_3Wy" alt="Screenshot 4" width="45%" />
+  <img src="https://drive.google.com/uc?id=10mTmic435GnrSVxH-69gYt9JGHTvcR4w" alt="Screenshot 1" width="45%" />
+  <img src="https://drive.google.com/uc?id=1WwRWnzqV1mg0N6LNAprMqrIXS1jm_3Wy" alt="Screenshot 2" width="45%" />
 </p>
+
+<p align="center">
+  <img src="https://drive.google.com/uc?id=1pB_y3INyDIzjeCQ7_EqXYW2BX1F8m0Jt" alt="Screenshot 3" width="45%" />
+  <img src="https://drive.google.com/uc?id=1pB_y3INyDIzjeCQ7_EqXYW2BX1F8m0Jt" alt="Screenshot 4" width="45%" />
+</p>
+
 
 ---
 
@@ -40,10 +46,14 @@ Below are live screenshots of the DAG Editor interface:
 
 Here is a complete walkthrough of the DAG Editor project in action:
 
-<div align="center">
+## 📹 Demo Video
+
+<p align="center">
   <iframe src="https://drive.google.com/file/d/1MNcKcnVhhF22zehhphNC77n-9amr277P/preview" 
-          width="640" height="360" allow="autoplay" allowfullscreen></iframe>
-</div>
+          width="640" height="360" allow="autoplay; encrypted-media" allowfullscreen>
+  </iframe>
+</p>
+
 
 ---
 
