@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# DAG Editor - Visual Workflow Designer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![React](https://img.shields.io/badge/react-%2320232a.svg?logo=react)](https://reactjs.org/)
+[![React Flow](https://img.shields.io/badge/react%20flow-%2361DAFB.svg?logo=react)](https://reactflow.dev/)
 
-## Available Scripts
+A powerful Directed Acyclic Graph (DAG) editor built with React and React Flow for creating, editing, and visualizing complex workflows.
 
-In the project directory, you can run:
+![DAG Editor Screenshot](./screenshot.png)
 
-### `npm start`
+## 📋 Problem Statement
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[View Problem Statement PDF](https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing)  
+*Click above to view the complete problem statement document*
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📹 Demo Video
 
-### `npm test`
+<div align="center">
+  <a href="https://drive.google.com/file/d/YOUR_VIDEO_ID/view?usp=sharing">
+    <img src="https://img.shields.io/badge/Watch%20Demo-%23FF0000.svg?style=for-the-badge&logo=Google-Drive&logoColor=white" alt="DAG Editor Demo" width="300">
+  </a>
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🌐 Live Deployment
 
-### `npm run build`
+Access the live application here:  
+[![Live Demo](https://img.shields.io/badge/Visit%20Live%20Site-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](YOUR_VERCEL_DEPLOYMENT_URL)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Node Management
+- ✨ Create nodes via modal or drag-and-drop
+- 🔍 Unique name validation
+- 🎨 Multiple node types (input/output/process/decision)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Connection Handling
+- ↔️ Intuitive edge creation
+- ❌ Visual validation indicators
+- 🛣️ Automatic path routing
 
-### `npm run eject`
+### Editing Tools
+- ↩️ Undo/Redo (Ctrl+Z/Ctrl+Y)
+- 🗑️ Delete with keyboard support
+- 📍 Position synchronization
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Layout & Visualization
+- 🏗️ One-click auto layout
+- 🔍 Zoom/pan navigation
+- 📊 JSON structure preview
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠 Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| Category        | Technologies                          |
+|-----------------|---------------------------------------|
+| **Frontend**    | React, React Flow, Dagre.js           |
+| **State**       | Context API, Custom Reducers          |
+| **Styling**     | CSS Modules, Responsive Design        |
+| **Icons**       | React Icons                           |
+| **Deployment**  | Vercel                                |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📦 Installation & Setup
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone repository**:
+   ```bash
+   git clone https://github.com/yourusername/dag-editor.git
+   cd dag-editor

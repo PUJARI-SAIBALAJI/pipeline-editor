@@ -1,0 +1,26 @@
+.edge {
+  fill: none;
+  stroke: #4a6baf;
+  stroke-width: 2px;
+  pointer-events: stroke;
+  transition: stroke-width 0.2s;
+}
+
+.edge:hover {
+  stroke-width: 3px;
+}
+
+.edge.selected {
+  stroke: #ff9800;
+  stroke-width: 3px;
+}
+
+.edge-group {
+  cursor: pointer;
+}
+
+/* Add this to the existing Edge.css */
+.edge.invalid {
+  stroke: #ff5252;
+  stroke-dasharray: 5, 5;
+}

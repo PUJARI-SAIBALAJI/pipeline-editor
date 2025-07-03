@@ -1,0 +1,78 @@
+.node {
+  position: absolute;
+  width: 150px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  cursor: move;
+  user-select: none;
+  transform: translate(-50%, -50%);
+  transition: box-shadow 0.2s;
+  z-index: 10;
+}
+
+.node:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.node.selected {
+  box-shadow: 0 0 0 2px #4a6baf;
+}
+
+.node.connecting {
+  box-shadow: 0 0 0 2px #ff9800;
+}
+
+.node-header {
+  padding: 0.8rem;
+  background-color: #4a6baf;
+  color: white;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.node-ports {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem;
+}
+
+.port {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #4a6baf;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.port:hover {
+  transform: scale(1.2);
+  background-color: #3a5a9f;
+}
+
+.input-port {
+  left: -8px;
+}
+
+.output-port {
+  right: -8px;
+}
+/* Add these to the existing Node.css */
+.node-header {
+  position: relative;
+}
+
+.node-type-badge {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.6rem;
+  padding: 0.2rem 0.4rem;
+  border-radius: 10px;
+  color: white;
+}

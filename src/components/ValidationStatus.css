@@ -1,0 +1,26 @@
+.validation-status {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.valid {
+  background-color: rgba(76, 175, 80, 0.2);
+  color: #2e7d32;
+}
+
+.invalid {
+  background-color: rgba(255, 152, 0, 0.2);
+  color: #ff6f00;
+}
+
+.status-icon {
+  font-size: 1.2rem;
+}
+
+.status-message {
+  font-size: 0.9rem;
+}

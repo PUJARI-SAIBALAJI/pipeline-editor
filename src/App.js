@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
+import { ReactFlowProvider } from 'reactflow'; // Add this at top
+
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './components/HomePage';
+import DAGEditor from './components/DAGEditor';
+import { DAGProvider } from './context/DAGContext';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <DAGProvider>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+           <Route
+            path="/editor"
+            element={
+              <ReactFlowProvider>
+                <DAGEditor />
+              </ReactFlowProvider>
+            }
+          />
+        </Routes>
+      </DAGProvider>
+    </Router>
   );
 }
+
+
 
 export default App;
