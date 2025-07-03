@@ -34,8 +34,9 @@ Below are live screenshots of the DAG Editor interface:
 
 <p align="center">
   <img src="https://drive.google.com/uc?id=1pB_y3INyDIzjeCQ7_EqXYW2BX1F8m0Jt" alt="Screenshot 3" width="45%" />
-  <img src="https://drive.google.com/uc?id=1pB_y3INyDIzjeCQ7_EqXYW2BX1F8m0Jt" alt="Screenshot 4" width="45%" />
+  <img src="https://drive.google.com/uc?id=10mTmic435GnrSVxH-69gYt9JGHTvcR4w" alt="Screenshot 4" width="45%" />
 </p>
+
 
 
 ---
