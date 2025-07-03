@@ -55,9 +55,15 @@ Here is a complete walkthrough of the DAG Editor project in action:
 
 ---
 
-## 🌐 Live Deployment (Coming Soon)
+## 🌐 Live Deployment
 
-Once deployed, the Vercel live link will be updated here.
+Access the live application here:
+
+<p align="center">
+  <a href="https://pipeline-editor-pujari-saibalajis-projects.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀%20Open%20Live%20App-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo on Vercel"/>
+  </a>
+</p>
 
 ---
 
