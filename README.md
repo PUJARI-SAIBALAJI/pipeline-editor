@@ -56,7 +56,15 @@ This document includes:
 
 ---
 
+
 ## 📹 Demo Video
+
+<p align="center">
+  <a href="https://youtu.be/KK_4PUvZXyY" target="_blank">
+    <img src="https://img.shields.io/badge/▶️%20Watch%20on%20YouTube-%23FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Demo on YouTube">
+  </a>
+</p>
+
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1MNcKcnVhhF22zehhphNC77n-9amr277P/view?usp=sharing" target="_blank">
