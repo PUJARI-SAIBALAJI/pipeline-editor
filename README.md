@@ -25,14 +25,12 @@ Design and develop an interactive DAG (Directed Acyclic Graph) Editor that enabl
 Below are live screenshots of the DAG Editor interface:
 
 <p align="center">
-  <img src="https://drive.google.com/uc?id=1pB_y3INyDIzjeCQ7_EqXYW2BX1F8m0Jt" alt="Screenshot 1" width="45%" />
+  <img src="https://drive.google.com/uc?id=1vp5Xh6_hlXapTAa77yvbB0LY7Z29kWJq" alt="Screenshot 1" width="45%" />
+
   <img src="https://drive.google.com/uc?id=1WwRWnzqV1mg0N6LNAprMqrIXS1jm_3Wy" alt="Screenshot 2" width="45%" />
 </p>
 
-<p align="center">
-  <img src="https://drive.google.com/uc?id=10mTmic435GnrSVxH-69gYt9JGHTvcR4w" alt="Screenshot 1" width="45%" />
-  <img src="https://drive.google.com/uc?id=1WwRWnzqV1mg0N6LNAprMqrIXS1jm_3Wy" alt="Screenshot 2" width="45%" />
-</p>
+
 
 <p align="center">
   <img src="https://drive.google.com/uc?id=1pB_y3INyDIzjeCQ7_EqXYW2BX1F8m0Jt" alt="Screenshot 3" width="45%" />
